@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #4CA1A3;
+  padding: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav img {
+  margin-right: 15px;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin-right: 25px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+section.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 40px;
+  background-attachment: fixed;
+}
+
+section.hero h1 {
+  font-family: sans-serif;
+  color: #fff;
+  letter-spacing: 5px;
+  font-size: 65px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+section.hero h2 {
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+section.hero button {
+  background: #ea1f66;
+  color: #fff;
+  border: none;
+  padding: 15px 25px;
+  -webkit-transition: .3s;
+  transition: .3s;
+  cursor: pointer;
+}
+
+section.hero button:hover {
+  background: #ee4e86;
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
+}
+
+section.showcase {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  max-width: 1120px;
+  margin: auto;
+}
+
+section.showcase .box {
+  width: 30%;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+  -webkit-box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.5);
+  position: relative;
+  top: -80px;
+}
+
+section.showcase h1 {
+  color: #4CA1A3;
+  text-decoration: underline;
+}
+
+section.main-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  max-width: 1120px;
+  margin: auto;
+  padding: 60px 0;
+}
+
+section.main-content .image {
+  width: 50%;
+}
+
+section.main-content .image img {
+  width: 100%;
+}
+
+section.main-content .text {
+  width: 50%;
+  padding: 0 25px;
+}
+
+section.main-content .text h1 {
+  margin-bottom: 15px;
+}
+
+section.main-content .text p {
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+
+section.regular-container img {
+  width: 80%;
+  max-width: 300px;
+  height: auto;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 0, 255, 0.5)), to(rgba(255, 0, 255, 0.5))), url("https://cdn.pixabay.com/photo/2016/08/09/21/54/lake-1581879_960_720.jpg");
+  background-image: linear-gradient(rgba(255, 0, 255, 0.5), rgba(255, 0, 255, 0.5)), url("https://cdn.pixabay.com/photo/2016/08/09/21/54/lake-1581879_960_720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  padding: 25px;
+  background-attachment: fixed;
+}
+
+footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+}
+
+footer .container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer .container ul a {
+  color: #fff;
+}
+/*# sourceMappingURL=main.css.map */
