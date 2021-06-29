@@ -171,6 +171,10 @@ section.main-content.page img {
   height: auto;
 }
 
+section.main-content.front-page-content {
+  display: block;
+}
+
 section.regular-container {
   padding: 25px 15px;
   display: block;
