@@ -1,5 +1,9 @@
 <?php get_header() ?>
 
+<section class="hero">  
+    <h1>Blog</h1>
+</section>
+
 <section class="regular-container">
     <?php if(have_posts()) : ?>
 
@@ -15,9 +19,14 @@
 
                 <?php the_excerpt(); ?>
 
-                <a href="<?php the_permalink(); ?>">
-                    <button class="read-more">Read More</button>
-                </a>
+                    <button class="read-more">
+                        <a href="<?php the_permalink(); ?>">
+                            Read More
+                        </a>
+                    </button>
+
+                <hr>
+
             </div>
         <?php endwhile; ?>
 

@@ -13,15 +13,17 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: #4CA1A3;
   padding: 15px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: absolute;
 }
 
 nav img {
   margin-right: 15px;
+  height: 45px;
+  width: auto;
 }
 
 nav ul {
@@ -50,7 +52,8 @@ section.hero {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 0, 255, 0.5)), to(rgba(255, 0, 255, 0.5))), url("https://cdn.pixabay.com/photo/2016/08/09/21/54/lake-1581879_960_720.jpg");
+  background-image: linear-gradient(rgba(255, 0, 255, 0.5), rgba(255, 0, 255, 0.5)), url("https://cdn.pixabay.com/photo/2016/08/09/21/54/lake-1581879_960_720.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-box-pack: center;
@@ -157,10 +160,48 @@ section.main-content .text p {
   font-size: 18px;
 }
 
+section.main-content.page {
+  display: block;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+section.main-content.page img {
+  width: 100%;
+  height: auto;
+}
+
+section.regular-container {
+  padding: 25px 15px;
+  display: block;
+}
+
 section.regular-container img {
   width: 80%;
   max-width: 300px;
   height: auto;
+  margin-bottom: 15px;
+}
+
+section.regular-container p {
+  margin-bottom: 15px;
+}
+
+section.regular-container a {
+  text-decoration: none;
+  color: #fff;
+}
+
+section.regular-container .read-more {
+  padding: 5px 10px;
+  background: #ea1f66;
+  border: none;
+  display: block;
+  margin-bottom: 15px;
+}
+
+section.regular-container .content-div {
+  display: block;
 }
 
 footer {

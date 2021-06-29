@@ -11,13 +11,15 @@ body{
 }
 nav{
     display: flex;
-    background: $secondary-color;
+    //background: $secondary-color;
     padding: 15px;
     align-items: center;
-    //position: absolute;
+    position: absolute;
 
     & img{
         margin-right: 15px;
+        height: 45px;
+        width: auto;
     }
 
     & ul{
@@ -131,14 +133,54 @@ section.main-content{
             font-size: 18px;
         }
     }
+
+    &.page{
+        display: block;
+        padding-left: 20px;
+        padding-right: 20px;
+
+        & img{
+            width: 100%;
+            height: auto;
+            //max-width: 800px;
+        }
+    }
 }
 
 section.regular-container{
+
+    padding: 25px 15px;
+    display: block;
+
     & img{
         width: 80%;
         max-width: 300px;
         height: auto;
+        margin-bottom: 15px;
     }
+
+    & p{
+        margin-bottom: 15px;
+    }
+
+    & a{
+        text-decoration: none;
+        color: #fff;
+    }
+
+    & .read-more{
+        padding: 5px 10px;
+        background: $primary-color;
+        border: none;
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    & .content-div{
+        display: block;
+    }
+
+
 }
 
 footer{
