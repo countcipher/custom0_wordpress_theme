@@ -76,6 +76,20 @@ function modify_customizer($wp_customize){
         'priority'      =>  2
     ]);
     //====================================================
+    //Button Text Setting
+    $wp_customize->add_setting('button_text', [
+        'default'       =>  _x('Click Me!', 'custom0'),
+        'type'          =>  'theme_mod'
+    ]);
+
+    //====================================================
+    //Button Text Control
+    $wp_customize->add_control('button_text', [
+        'label'         =>  __('Button Text', 'custom0'),
+        'section'       =>  'banner',
+        'priority'      =>  3
+    ]);
+    //====================================================
     //The following is for implementing an image
     //Background Image Setting
     $wp_customize->add_setting('banner_image', [

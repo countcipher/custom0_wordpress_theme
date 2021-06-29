@@ -12,7 +12,7 @@ Template Name: Homepage
 
         <h2><?php echo get_theme_mod('banner_tagline', 'Tagline goes here'); ?></h2>
 
-        <button>Click Me!</button>
+        <button><?php echo get_theme_mod('button_text', 'Click Me!'); ?></button>
     </section>
 
     <section class="showcase">
